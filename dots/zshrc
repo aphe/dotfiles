@@ -24,6 +24,10 @@ fi
 
 # Customize to your needs...
 
-#local ruby gem
+# local ruby gem
 export GEM_HOME=$HOME/.gem
-export PATH=$GEM_HOME/ruby/2.3.0/bin:$PATH
+export PATH=$GEM_HOME/bin:$PATH
+
+# nvm
+  export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
