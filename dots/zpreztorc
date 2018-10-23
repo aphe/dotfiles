@@ -39,7 +39,10 @@ zstyle ':prezto:load' pmodule \
   'homebrew' \
   'history-substring-search' \
   'osx' \
-  'prompt'
+  'prompt' \
+  'node' \
+  'python' \
+  'ruby'
 
 #
 # Autosuggestions
