@@ -34,3 +34,9 @@ export PATH=$GEM_HOME/bin:$PATH
 
 # android-sdk
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
+
+# gitignore
+function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
+
+# fastlane
+export PATH=$HOME/.fastlane/bin:$PATH
