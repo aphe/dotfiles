@@ -27,6 +27,7 @@ cask 'java'
 cask 'android-file-transfer'
 cask 'android-sdk'
 cask 'microsoft-office'
+cask 'lepton'
 
 # Fonts
 cask 'font-sourcecodepro-nerd-font'
