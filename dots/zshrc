@@ -25,6 +25,7 @@ fi
 # Customize to your needs...
 
 # local ruby gem
+export PATH="/usr/local/opt/ruby/bin:$PATH"
 export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
 
