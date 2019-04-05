@@ -12,6 +12,9 @@ brew 'zsh'
 brew 'nvm'
 brew 'pyenv'
 brew 'go'
+brew 'flutter'
+brew 'dnscrypt-proxy'
+brew 'hugo'
 
 # Cask
 cask 'authy'
@@ -28,6 +31,8 @@ cask 'android-file-transfer'
 cask 'android-sdk'
 cask 'microsoft-office'
 cask 'lepton'
+cask 'fork'
+cask 'fastlane'
 
 # Fonts
 cask 'font-sourcecodepro-nerd-font'
