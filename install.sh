@@ -28,4 +28,5 @@ mkdir "${ZDOTDIR:-$HOME}/.gem"
 gem install cocoapods --user-install
 gem install xcodeproj --user-install
 
+sudo sh -c "echo $(which zsh) >> /etc/shells"
 chsh -s $(which zsh)
