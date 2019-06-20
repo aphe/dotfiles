@@ -32,7 +32,6 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'history' \
   'directory' \
-  'spectrum' \
   'utility' \
   'completion' \
   'ssh' \
@@ -40,9 +39,11 @@ zstyle ':prezto:load' pmodule \
   'history-substring-search' \
   'osx' \
   'prompt' \
-  'node' \
-  'python' \
+  'fasd' \
   'ruby'
+#  'node' \
+#  'python' \
+#  'spectrum' \
 
 #
 # Autosuggestions

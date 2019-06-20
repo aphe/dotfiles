@@ -19,7 +19,7 @@ git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$H
 zsh zsh-command
 
 #nvm install latest
-nvm install --lts
+# nvm install --lts
 
 #ruby local gem
 mkdir "${ZDOTDIR:-$HOME}/.gem"

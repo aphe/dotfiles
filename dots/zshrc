@@ -41,3 +41,8 @@ fi
 
 # gitignore
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
+
+# flutter
+export PATH="$PATH:`pwd`/flutter/bin"
+
+export GPG_TTY=$(tty)
