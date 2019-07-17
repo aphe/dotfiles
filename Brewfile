@@ -14,6 +14,7 @@ brew 'zsh'
 # brew 'go'
 brew 'dnscrypt-proxy'
 brew 'hugo'
+brew 'ruby'
 
 # Cask
 cask 'authy'
