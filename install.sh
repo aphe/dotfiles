@@ -21,9 +21,6 @@ zsh zsh-command
 #nvm install latest
 # nvm install --lts
 
-#ruby local gem
-mkdir "${ZDOTDIR:-$HOME}/.gem"
-
 #cocoapods
 gem install cocoapods --user-install
 gem install xcodeproj --user-install
