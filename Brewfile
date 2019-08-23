@@ -18,6 +18,7 @@ brew 'dnscrypt-proxy'
 brew 'hugo'
 brew 'ruby'
 brew 'p7zip'
+brew 'rmtrash'
 
 # Cask
 cask 'authy'

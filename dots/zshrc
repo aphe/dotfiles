@@ -44,3 +44,7 @@ export CPPFLAGS="-I/usr/local/opt/ruby/include"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 export PATH="/usr/local/opt/node@10/bin:$PATH"
+
+# alias for rmtrash
+alias trash="rmtrash"
+alias del="rmtrash"
