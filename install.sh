@@ -18,12 +18,5 @@ git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$H
 
 zsh zsh-command
 
-#nvm install latest
-# nvm install --lts
-
-#cocoapods
-gem install cocoapods --user-install
-gem install xcodeproj --user-install
-
 sudo sh -c "echo $(which zsh) >> /etc/shells"
 chsh -s $(which zsh)

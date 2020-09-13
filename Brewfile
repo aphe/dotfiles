@@ -1,42 +1,68 @@
-# Taps
-tap 'homebrew/cask-cask'
-# tap 'caskroom/eid'
-tap 'homebrew/cask-fonts'
-# tap 'caskroom/versions'
-tap 'AdoptOpenJDK/openjdk'
-
-# Binaries
-brew 'git'
-brew 'zsh'
-
-# Development
-# brew 'nvm'
-# brew 'pyenv'
-# brew 'go'
-brew 'ruby'
-brew 'dnscrypt-proxy'
-# brew 'hugo'
-brew 'p7zip'
-# brew 'rmtrash'
-brew 'gnupg'
-brew 'pinentry-mac'
-
-# Cask
-cask 'authy'
-cask 'bettertouchtool'
-# cask 'google-chrome'
-cask 'iterm2'
-# cask 'sourcetree'
-cask 'visual-studio-code'
-# cask 'postman'
-cask 'adoptopenjdk8'
-# cask 'android-file-transfer'
-# cask 'android-sdk'
-# cask 'microsoft-office'
-# cask 'fork'
-# cask 'fastlane'
-# cask 'diffmerge'
-
-# Fonts
-# cask 'font-sourcecodepro-nerd-font'
-cask 'font-fira-code'
+tap "adoptopenjdk/openjdk"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "oclint/formulae"
+tap "peripheryapp/periphery"
+brew "dnscrypt-proxy", restart_service: true
+brew "git"
+brew "git-extras"
+brew "pinentry"
+brew "gnupg", link: false
+brew "goenv"
+brew "hugo"
+brew "macos-trash"
+brew "mas"
+brew "nvm"
+brew "pinentry-mac"
+brew "pyenv"
+brew "ruby-build"
+brew "rbenv"
+brew "rmtrash"
+brew "sonar-scanner"
+brew "sonarqube"
+brew "swiftlint"
+brew "tailor"
+brew "tmux"
+brew "wget"
+brew "zsh"
+brew "oclint/formulae/oclint"
+cask "adoptopenjdk8"
+cask "alfred"
+cask "android-ndk"
+cask "android-platform-tools"
+cask "android-sdk"
+cask "bettertouchtool"
+cask "browserosaurus"
+cask "contexts"
+cask "diffmerge"
+cask "docker"
+cask "firefox"
+cask "font-fira-code"
+cask "font-meslolg-nerd-font"
+cask "font-saucecodepro-nerd-font"
+cask "gitkraken"
+cask "gpg-suite-no-mail"
+cask "iina"
+cask "iterm2"
+cask "keka"
+cask "krisp"
+cask "microsoft-office"
+cask "notion"
+cask "pock"
+cask "postman"
+cask "private-internet-access"
+cask "setapp"
+cask "spotify"
+cask "tower"
+cask "visual-studio-code"
+cask "vivaldi"
+cask "webstorm"
+cask "zeplin"
+mas "Amphetamine", id: 937984704
+mas "Grammarly for Safari", id: 1462114288
+mas "Helium", id: 1054607607
+mas "Todoist", id: 585829637
+mas "Xcode", id: 497799835
